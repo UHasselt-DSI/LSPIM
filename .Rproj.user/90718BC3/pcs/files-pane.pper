@@ -1,6 +1,10 @@
 {
-    "path": "~/Library/CloudStorage/GoogleDrive-stijn.jaspers@uhasselt.be/My Drive/FWO Postdoc copy/PIM/Longitudinal PIM/LSPIM",
+    "path": "~/Library/CloudStorage/GoogleDrive-stijn.jaspers@uhasselt.be/My Drive/FWO Postdoc copy/PIM/Longitudinal PIM/LSPIM/Revision",
     "sortOrder": [
+        {
+            "columnIndex": 4,
+            "ascending": false
+        },
         {
             "columnIndex": 2,
             "ascending": true

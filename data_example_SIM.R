@@ -757,7 +757,6 @@ if (!dir.exists(out_dir)) dir.create(out_dir)
 ## -------------------------------------------------------------------------
 ## 4. Load data, construct pseudo-observations, fit three-GEE procedure
 ## -------------------------------------------------------------------------
-
 arthritis_small <- make_small_arthritis(n_per_group = n_per_group, seed = 1988)
 pairdat <- make_compare_and_dat_gee(arthritis_small,
                                     higher_is_better = higher_is_better,
@@ -936,7 +935,7 @@ p_eff <- ggplot(visit_specific_tests, aes(x = visit, y = expit(estimate_logit_PI
     plot.margin = margin(t = 8, r = 35, b = 8, l = 8)
   )
 
-
+beta
 cat("\nFull parameter estimates for proposed longitudinal PIM:\n")
 print(full_param_results)
 cat("\nHolm-adjusted tests for treatment-effect constancy:\n")
