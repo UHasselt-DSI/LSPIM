@@ -2,3 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+bootstrap_try_PO.Rdata
+bootstrap_try_RI.Rdata
+PO_full.Rdata
+PO_Single_Step.Rdata
+Revision/Sims_RI.Rdata
+RI_full.Rdata
+RI_Single_Step.Rdata
+sim_PO.Rdata
+sim_PO_test.Rdata
+sim_RI.Rdata
+sim_RI_test.Rdata
